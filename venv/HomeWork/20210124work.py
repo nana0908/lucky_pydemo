@@ -12,8 +12,17 @@ items()方法将字典的元素转化为了元组，而这里key参数对应的l
 （如果写作key=lambda item:item[0]的话则是选取第一个元素作为比较对象，也就是key值作为比较对象。
 lambda x:y中x表示输出参数，y表示lambda函数的返回值），所以采用这种方法可以对字典的value进行排序
 '''
-print(sorted(d.items(),key=lambda item : item[1],reverse=True))#d.items()实际上是将d转换为可迭代对象
+print(sorted(d.items(),key=lambda item : item[1],reverse=True))#sort() 对给出的对象进行排序。d.items()实际上是将d转换为可迭代对象
 
+list2 = [1,3,5,6,3,2,3,1,7,2,2,2,3,6]
+set01 = set(list2)
+print(set01)
+dict01 = {}
+for i in set01:
+    dict01[i] = list2.count(i)
+print(dict01)
+list3 = sorted(dict01,key=dict01.get,reverse= True)#sort() 对给出的对象进行排序,dict01.get获取字典的value
+print(list3)
 '''
 月份缩写：如果有 
 months = "Jan.Feb.Mar.Apr.May.Jun.Jul.Aug.Sep.Oct.Nov.Dec."，
