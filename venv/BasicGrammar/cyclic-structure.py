@@ -80,8 +80,12 @@ for i1 in range(1,10):
     print()
 
 #输入一个正整数判断是不是素数（素数及只能被1和自身整除的大于1的整数）
+'''
+判断一个正整数m是否为素数，只要判断m可否被2~根号m之中的任何一个正整数整除，
+如果m不能被此范围中任何一个正整数整除，m即为素数，否则m为合数。
+'''
 s1 = int(input("please input a number"))
-end = int(s1 ** 0.5)
+end = int(s1 ** 0.5)#开根号
 is_prime = True
 for x1 in range(2,end + 1):
     print(s1,end,x1)

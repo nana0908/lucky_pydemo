@@ -26,6 +26,11 @@ python
 内置函数：系统自带的函数
 ### simple-algorithm 简单小算法
 ## PyModule python模块
-
+### moudule:模块引用
+### file_operation 文件操作
+文件打开/关闭，读/写操作，
+文件指针位置函数：tell() 获取文件指针位置
+seek()函数：语法：seek(offset,from) 改变文件指针位置
+文件操作：文件重命名，删除文件
 ## HomeWork
 学习过程的作业

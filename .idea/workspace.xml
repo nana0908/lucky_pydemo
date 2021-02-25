@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/FunctionApplication/anonymous-function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/FunctionApplication/function-application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyModule/module01-calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyFile/demo_01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyFile/demo_02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyFile/demo_03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/contents_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/file_operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/BasicGrammar/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/BasicGrammar/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/FunctionApplication/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.module01-calc">
+  <component name="RunManager" selected="Python.file_operation">
     <configuration name="anonymous-function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +89,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\PycharmProjects\lucky_pydemo\venv\FunctionApplication\anonymous-function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/file_operation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,34 +160,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/FunctionApplication" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/FunctionApplication/sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_operation" />
         <item itemvalue="Python.module01-calc" />
         <item itemvalue="Python.anonymous-function (1)" />
         <item itemvalue="Python.anonymous-function" />
         <item itemvalue="Python.function-application" />
-        <item itemvalue="Python.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613816831375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="python">
+      <created>1614217353933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614217353933</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,50 +220,54 @@
   <component name="WindowStateProjectService">
     <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613718934751" />
     <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613718934751" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1613816828739">
+    <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1614221895769">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613816828739" />
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1614162323390">
+    <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614221895769" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1614217346795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323390" />
-    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1614162323389">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614217346795" />
+    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1614244631298">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323389" />
-    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1614162323389">
+    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631298" />
+    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1614244631297">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323389" />
-    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1614162323389">
+    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631297" />
+    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1614244631297">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323389" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1613981255066">
+    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631297" />
+    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1614244631297">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1613981255066">
+    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631297" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1614241275336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1613981255066">
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1614241275336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1613981255066">
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1614241275336">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1614241275336">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1613817281389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613817281389" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1613817283969">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614251007623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613817283969" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614251007623" />
     <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613981250579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
