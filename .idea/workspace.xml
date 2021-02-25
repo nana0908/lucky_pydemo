@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/FunctionApplication/simple-algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/FunctionApplication/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/FunctionApplication/anonymous-function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/FunctionApplication/function-application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/module01-calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/BasicGrammar/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/BasicGrammar/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/FunctionApplication/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../idcard_generator" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -50,71 +54,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sort">
-    <configuration name="20210124work (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210124work.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cyclic-structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/BasicGrammar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logical-operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/BasicGrammar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/BasicGrammar/logical-operation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="simple-algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.module01-calc">
+    <configuration name="anonymous-function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +67,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/FunctionApplication/simple-algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/FunctionApplication/anonymous-function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="anonymous-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/FunctionApplication" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\lucky_pydemo\venv\FunctionApplication\anonymous-function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="function-application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/FunctionApplication" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/FunctionApplication/function-application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module01-calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/module01-calc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module01-calc" />
+        <item itemvalue="Python.anonymous-function (1)" />
+        <item itemvalue="Python.anonymous-function" />
+        <item itemvalue="Python.function-application" />
         <item itemvalue="Python.sort" />
-        <item itemvalue="Python.simple-algorithm" />
-        <item itemvalue="Python.cyclic-structure" />
-        <item itemvalue="Python.logical-operation" />
-        <item itemvalue="Python.20210124work (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613279443054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="python">
+      <created>1613816831375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613816831375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,27 +213,57 @@
   <component name="WindowStateProjectService">
     <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613718934751" />
     <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613718934751" />
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1613809516719">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1613816828739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613809516719" />
-    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1613809516719">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613816828739" />
+    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1614162323390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613809516719" />
-    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1613809516719">
+    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323390" />
+    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1614162323389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613809516719" />
-    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1613809516719">
+    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323389" />
+    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1614162323389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613809516719" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1613718934751" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613718934751" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1613816798542">
+    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323389" />
+    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1614162323389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613816798542" />
+    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614162323389" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1613981255066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1613981255066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1613981255066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1613981255066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981255066" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1613817281389">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613817281389" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1613817283969">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613817283969" />
+    <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613981250579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981250579" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1613985030975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613985030975" />
   </component>
 </project>

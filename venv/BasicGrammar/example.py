@@ -9,36 +9,37 @@ CRAPS又称花旗骰，是美国拉斯维加斯非常受欢迎的一种的桌上
 如果玩家摇出了第一次摇的点数，玩家胜；其他点数玩家继续摇骰子，直到分出胜负。
 设定游戏开始时玩家有1000元的赌注
 '''
-money = 1000
-while money > 0:
-    print(f'您的总资产为{money}元')
-    go_on = False
-    while True:
-        dept = int(input("请下注："))
-        if 0 < dept <= money:
-            print("下注金额大于现有资产")
-            break
-    first = randint(1,6) + randint(1,6)#randint()生成指定范围内的随机整数
-    print(f'玩家摇出了{first}点')
-    if first == 7 or first == 11:
-        print("玩家胜")
-        money += dept
-    elif first == 2 or first == 3 or first == 12:
-        print("庄家胜")
-        money -= dept
-    else:
-        go_on = True
-    while go_on:
+def craps():
+    money = 1000
+    while money > 0:
+        print(f'您的总资产为{money}元')
         go_on = False
-        current = randint(1,6) + randint(1,6)
-        print(f'玩家摇出了{current}点')
-        if current == 7:
-            print("庄家胜")
-            money -= dept
-        elif current == first:
+        while True:
+            dept = int(input("请下注："))
+            if 0 < dept <= money:
+                print("下注金额大于现有资产")
+                break
+        first = randint(1,6) + randint(1,6)#randint()生成指定范围内的随机整数
+        print(f'玩家摇出了{first}点')
+        if first == 7 or first == 11:
             print("玩家胜")
             money += dept
+        elif first == 2 or first == 3 or first == 12:
+            print("庄家胜")
+            money -= dept
         else:
             go_on = True
-print('您破产了，游戏结束！')
+        while go_on:
+            go_on = False
+            current = randint(1,6) + randint(1,6)
+            print(f'玩家摇出了{current}点')
+            if current == 7:
+                print("庄家胜")
+                money -= dept
+            elif current == first:
+                print("玩家胜")
+                money += dept
+            else:
+                go_on = True
+    print('您破产了，游戏结束！')
 

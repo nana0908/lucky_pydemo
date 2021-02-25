@@ -16,5 +16,16 @@ python
 ### cyclic-structure 循环结构（for -- in循环  while循环）
 ### function-module 函数和模块
 ## FunctionApplication 函数应用
+### function_application 函数应用，
+包含python函数参数类型，python函数的参数传递，函数的嵌套，变量的作用域等
+### sort（排序的思想与算法）
+冒泡排序
+选择排序
+### anonymous-function 匿名函数（lambda函数）
+了解lambda函数（匿名函数）的意义和使用
+内置函数：系统自带的函数
+### simple-algorithm 简单小算法
+## PyModule python模块
+
 ## HomeWork
 学习过程的作业
