@@ -32,5 +32,9 @@ python
 文件指针位置函数：tell() 获取文件指针位置
 seek()函数：语法：seek(offset,from) 改变文件指针位置
 文件操作：文件重命名，删除文件
+### contents_operation 目录操作
+创建/切换/删除目录
+### date_time_operation 日期时间操作
+time和datetime模块处理时间：获取当前时间，时间格式化，时间戳转换等
 ## HomeWork
 学习过程的作业
