@@ -23,9 +23,9 @@ print(rose_case(i1))
 '''
 
 abv = int(input('请输入车辆驾驶员血液酒精含量（单位：mg/100ml）:'))
-if abv >= 20 and abv < 80:
+if 20 <= abv < 80:
     print('该驾驶员为饮酒驾车。')
-elif abv > 80 :
+elif abv > 80:
     print('该驾驶员为酒醉驾车')
 else:
     print('该驾驶员未酒驾')
@@ -42,11 +42,11 @@ else:
 def bmi_calc(bmi):
     if bmi < 18.5:
         print('过轻')
-    elif bmi >= 18.5 and bmi < 25:
+    elif 18.5 <= bmi < 25:
         print('正常')
-    elif bmi >= 25 and bmi < 28:
+    elif 25 <= bmi < 28:
         print('过重')
-    elif bmi >= 18 and bmi <32:
+    elif 18 <= bmi < 32:
         print('肥胖')
     elif bmi >= 32:
         print('严重肥胖')
@@ -59,12 +59,14 @@ bmi_calc(bmi1)
 
 4、使用循环语句计算从1到100，一共有多少个尾数为7或者7的倍数这样的数，请输出这样的数。
 '''
-
-for i in range(1,101):#产生0-100范围的整数，取不到101
-    if i % 10 == 7  or i % 7 == 0 :
-        print(i)
+sum = 0
+for i in range(1, 101):#产生0-100范围的整数，取不到101
+    if i % 10 == 7 or i % 7 == 0:
+        print(f'{i}为尾数为7或者7的倍数')
+        sum += 1
     else:
         continue
+print(f'1-100中有{sum}个尾数为7或者7的倍数')
 
 '''
 5、模拟支付宝的蚂蚁森林通过日常的走步--20g，生活缴费--50g，线下支付--100g，网络购票--80g，
@@ -73,30 +75,31 @@ for i in range(1,101):#产生0-100范围的整数，取不到101
 '''
 
 init = 0
+print('能量输入来源：\n日常的走步--20g，生活缴费--50g，线下支付--100g，网络购票--80g，共享单车--200g')
 while True:
     action = input('查询能量请输入能量来源,退出程序请输入0：')
     if action == '日常的走步':
         init += 20
-        print(f'当前能量为{init}')
+        print(f'增加20g能量，当前能量为{init}')
     elif action == '生活缴费':
         init += 50
-        print(f'当前能量为{init}')
+        print(f'增加50g能量，当前能量为{init}')
     elif action == '线下支付':
         init += 100
-        print(f'当前能量为{init}')
+        print(f'增加100g能量，当前能量为{init}')
     elif action == '网络购票':
         init += 80
-        print(f'当前能量为{init}')
+        print(f'增加80g能量，当前能量为{init}')
     elif action == '共享单车':
         init += 200
-        print(f'当前能量为{init}')
+        print(f'增加200g能量，当前能量为{init}')
     elif action == '0':
         print('退出能量计算程序')
         break
     else:
         print('输入错误，请重新输入')
         continue
-plantTrees = input('请选择是否需要种树，选择 Y/N')
+plantTrees = input(f'您当前可种植{init // 500}棵树，请选择是否需要种树，选择 Y/N')
 if plantTrees == 'Y':
     if init < 500:
         print('种树能量不够')
@@ -113,7 +116,7 @@ elif plantTrees == 'N':
 '''
 
 import random
-base = random.randint(1,10)#随机生成一个1-10范围内的随机数
+base = random.randint(1, 10)#随机生成一个1-10范围内的随机数
 #print(base)
 while True:
     num = int(input('请输入一个[1,10]范围内的数字(输入-1，则表示退出游戏):'))
@@ -142,13 +145,18 @@ def query10086(i):
         3: f'您当前剩余通话为：{calls}分钟',
         0: '退出自助查询系统'
     }
-    return query.get(i,'输入错误！')
-i = int(input('请输入数字（1：查询余额，2：查询流量，3：查询剩余通过，0：退出）'))
-list1 = [0,1,2,3]
-if i in list1:
-    print(query10086(i))
-else:
-    print('输入错误！')
+    return query.get(i, '输入错误！')
+while True:
+    i = int(input('请输入数字（1：查询余额，2：查询流量，3：查询剩余通过，0：退出）'))
+    list1 = [0,1,2,3]
+    if i in list1:
+        if i == 0:
+            print(query10086(i))
+            break
+        else:
+            print(query10086(i))
+    else:
+        print('输入错误！')
 
 '''
 8、几个好朋友一起玩逢七拍腿的游戏，即从1开始依次数数，当数到尾数为7的数或7的倍数时，则不报出该数，而是拍一下腿。
@@ -156,11 +164,21 @@ else:
 '''
 
 num1 = 0
-for i in range(1,100):#产生0-100范围的整数，取不到101
-    if i % 10 == 7  or i % 7 == 0 :
+'''
+for i in range(1, 100):#产生0-100范围的整数，取不到101
+    if i % 10 == 7 or i % 7 == 0 :
         num1 += 1
     else:
         continue
+print(num1)
+'''
+for i in range(1, 100):#产生0-100范围的整数，取不到101
+    if i % 7 == 0:
+        num1 += 1
+    else:
+        string = str(i)
+        if string.endswith('7'): #endswith()函数：判断最后一位数字是不是7
+            num1 += 1
 print(num1)
 
 '''
@@ -168,7 +186,7 @@ print(num1)
 '''
 
 is_leap = []
-for year in range(2000,2021):
+for year in range(2000, 2021):
     if year % 4 == 0 and year % 100 !=0 or year % 400 == 0:
         is_leap.append(year)
     else:
@@ -181,14 +199,14 @@ print(f'2000-2020年中间的闰年有{is_leap}')
 如果可以构成三角形的话，则进一步显示三角形的类型(等边，等腰，一般三角形)。
 如果不构成三角形的话，则给出提示信息。
 '''
-a,b,c=input("请输入三个整数：").split(',')
-if int(a+b) > int(c) and int(a+c) > int(b) and int(b+c) > int(a):
+a, b, c = input("请输入三个整数：").split(',')
+if int(a)+int(b) > int(c) and int(a)+int(c) > int(b) and int(b)+int(c) > int(a):
     print('可以构成三角形')
     if a == b == c :
         print('该三角形为等边三角形')
     elif a == b or a == c or b == c:
         print('该三角形为等腰三角形')
-    elif a != b and b !=c and a != c:
+    elif a != b and b != c and a != c:
         print('该三角形为普通三角形')
 else:
     print('无法构成三角形')
