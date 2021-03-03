@@ -13,7 +13,7 @@ print( os.path.abspath(__file__) )#显示文件的绝对位置
 print( os.path.dirname(__file__) )#显示文件的目录名
 #open()
 file01 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_01.txt')
-content01 = file01.read(3)#read(3):读取当前位置的3个字符
+content01 = file01.read(3)#read(3):读取当前位置的3个字符，默认读取所有的内容
 
 print('当前文件位置',file01.tell())#tell()函数，获取文件指针当前位置
 

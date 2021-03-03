@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PyFile/demo_01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyFile/demo_02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyFile/demo_03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyModule/contents_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyModule/file_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/object_oriented.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyPractice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyPractice/file_practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/BasicGrammar/cyclic-structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/HomeWork/20210228work.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/HomeWork/20210228work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PyModule/date_time_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/date_time_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PyModule/file_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/file_operation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
   </component>
   <component name="ProjectId" id="1nurS4m0ilLojCcghloAa8tB0ct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,8 +47,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_operation">
-    <configuration name="anonymous-function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.date_time_operation">
+    <configuration name="20210228work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/FunctionApplication" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/FunctionApplication/anonymous-function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210228work.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="anonymous-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="contents_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +77,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/FunctionApplication" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PycharmProjects\lucky_pydemo\venv\FunctionApplication\anonymous-function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/contents_operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="date_time_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/date_time_operation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,27 +124,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/file_operation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="function-application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/FunctionApplication" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/FunctionApplication/function-application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.date_time_operation" />
+        <item itemvalue="Python.20210228work" />
+        <item itemvalue="Python.contents_operation" />
         <item itemvalue="Python.file_operation" />
         <item itemvalue="Python.module01-calc" />
-        <item itemvalue="Python.anonymous-function (1)" />
-        <item itemvalue="Python.anonymous-function" />
-        <item itemvalue="Python.function-application" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614217353933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="python">
+      <created>1614251038404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614251038404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="python">
+      <created>1614337544038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614337544038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="python">
+      <created>1614338174430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614338174430</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,50 +238,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614221895769" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1614217346795">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1614338161288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614217346795" />
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1614244631298">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338161288" />
+    <state width="1244" height="515" key="GridCell.Tab.0.bottom" timestamp="1614777550944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631298" />
-    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1614244631297">
+    <state width="1244" height="515" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
+    <state width="1244" height="515" key="GridCell.Tab.0.center" timestamp="1614777550944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631297" />
-    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1614244631297">
+    <state width="1244" height="515" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
+    <state width="1244" height="515" key="GridCell.Tab.0.left" timestamp="1614777550944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631297" />
-    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1614244631297">
+    <state width="1244" height="515" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
+    <state width="1244" height="515" key="GridCell.Tab.0.right" timestamp="1614777550944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614244631297" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1614241275336">
+    <state width="1244" height="515" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1614338301026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1614241275336">
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1614338301026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1614241275336">
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1614338301026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1614241275336">
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1614338301026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614241275336" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1613817281389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613817281389" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614251007623">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614338198149">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614251007623" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338198149" />
+    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614660957799">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614660957799" />
     <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613981250579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

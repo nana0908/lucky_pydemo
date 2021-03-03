@@ -2,7 +2,6 @@
 作业：
 1、用自己的理解方式编码举例LEGB规则
 '''
-'''
 l = '10'
 print(f'当前l为全局变量(L),l={l}')
 def legbRule():
@@ -14,11 +13,11 @@ def legbRule():
         print(f'\'__name__\'未被定义，当前{__name__}为内置变量（B）')
     fun01()
 legbRule()
-'''
+
 '''
 2、用函数递归的方式求 4！
 '''
-'''
+
 def factorial(i):
     fac = 0
     if i == 0:
@@ -31,7 +30,7 @@ if n >= 0:
     print(f'{n}的阶乘为{factorial(n)}')
 else:
     print('负数没有阶乘！！！')
-'''
+
 
 '''
 3、编写一个匿名函数，能求出3个数的最大值
@@ -46,7 +45,8 @@ from 包.模块名 import 方法名
 from 包.模块名 import *
 
 5、用包和不用包的区别在哪里？
-没看明白啥意思
+用包为了方便模块管理
+不用包模块之间相互调用更加方便
 
 6、编写用户登陆系统
 需求：
@@ -62,7 +62,7 @@ from 包.模块名 import *
    3).如果用户不存在
    重新登陆，总共有三次机会
 '''
-
+'''
 def login(user,password):
     users = ['root', 'westos']
     passwd = ['123', '456']
@@ -94,3 +94,22 @@ while True:
     else:
         print('您输入的账号密码错误超过3次，退出系统！')
         break
+'''
+users = ['root', 'westos']
+passwd = ['123', '456']
+count = 0
+while count < 3:
+    user = input('请输入用户名：')
+    password = input('请输入密码：')
+    count += 1
+    if user in users:#判断用户是否存在
+        index = users.index(user)#获取用户名下标
+        if password == passwd[index]:
+            print(f'用户{user}登录成功')
+            break
+        else:
+            print(f'用户{user}登录失败，密码不正确')
+    else:
+        print(f'用户{user}不存在')
+else:
+    print('已超过3次机会')
