@@ -12,8 +12,9 @@ print( os.getcwd() )#显示文件的当前位置（相对）
 print( os.path.abspath(__file__) )#显示文件的绝对位置
 print( os.path.dirname(__file__) )#显示文件的目录名
 #open()
-file01 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_01.txt')
-content01 = file01.read(3)#read(3):读取当前位置的3个字符，默认读取所有的内容
+#file01 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_01.txt')
+file01 = open('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile/demo_01.txt','r',encoding='utf-8')
+content01 = file01.read(3)#read(3):读取当前位置的3个字符,read有参数时，如果是utf-8编码，表示读取的字符数量
 
 print('当前文件位置',file01.tell())#tell()函数，获取文件指针当前位置
 
@@ -33,24 +34,35 @@ print( 'file01文件编码',file01.encoding )#文件编码
 print( 'file01文件名称',file01.name )#文件名称
 print( 'file01文件模式',file01.mode )#文件模式
 
-file02 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_02.txt','rb')
+#file02 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_02.txt','rb')
+file02 = open('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile/demo_02.txt','rb')
 line01 = file02.readline()#readline() 读取一行，和read函数一样，指针移位
 print('当前文件位置',file02.tell())#偏移文件指针之后获取当前文件位置，位置变为5
 file02.seek(5,1)#从起始位置开始偏移5位开始读取
 print('当前文件位置',file02.tell())#偏移文件指针之后获取当前文件位置，位置变为5
-line02 = file02.readline(2)#readline() 读取一行中的2个字符
-lines = file02.readlines()#读取所有行
+line02 = file02.readline(2)#readline() 没有参数默认读取一行，有参数代表读取一行中的n个字符，最多也只能读取一行
+lines = file02.readlines(3)#读取所有行，有参数不足一行或者超过一行会显示下一行的内容
+lines = file02.readlines()#读取所有行，结果保存在list中
+
 print('line01:',line01)
 print('line02:',line02)
 print('lines:',lines)
 
-file03 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_03.txt','w',encoding='utf-8')#以写的方式打开文件，没有存在文件就新建
+#file03 = open('D:/PycharmProjects/lucky_pydemo/venv/PyFile/demo_03.txt','w',encoding='utf-8')#以写的方式打开文件，没有存在文件就新建
+file03 = open('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile/demo_03.txt','w',encoding='utf-8')#以写的方式打开文件，没有存在文件就新建
 print( file03.writable() ) #判断文件是否可写
 file03.write('012345678\n') # 写的时候，之前的文件内容会被覆盖
 file03.writelines(['china\n','中国\n','000\n'])
-file03.flush()#刷新文件内部缓冲
+file03.flush()#刷新文件内部缓冲，只要文件内容发生改变，就必须要flush
 
 #rename()方法重命名 rename('旧文件名','新文件名')
-os.rename('','')
+#os.rename('','')
 #remove(filename) 删除文件
 
+#file04 = open('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile/demo_03.txt','a',encoding='utf-8')#以追加的方式打开文件
+#file05 = open('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile/demo_03.txt','r+',encoding='utf-8')#在文件前写入的方式打开文件，r+会覆盖内容
+
+#判断文件是否存在
+print(os.path.isfile('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile/demo_03.txt'))
+#判断文件夹是否存在
+print(os.path.isdir('/Users/nana/PycharmProjects/lucky_pydemo/venv/PyFile'))
