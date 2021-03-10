@@ -5,18 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PyModule/object_oriented.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyPractice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyPractice/file_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_2_12_56_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_2_12_56__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/HomeWork/20210228work.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/HomeWork/20210228work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/PyModule/date_time_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/date_time_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/PyModule/file_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/file_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/HomeWork/20210307work.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/HomeWork/20210307work.py" afterDir="false" />
     </list>
+    <ignored path="D:\PycharmProjects\lucky_pydemo\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/object_oriented.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/object_abstract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/object_characteristic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/HomeWork/20210307work.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/BasicGrammar/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/BasicGrammar/function-module.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/BasicGrammar/data-type.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,8 +90,81 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/venv/HomeWork/20210307work.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
   <component name="ProjectId" id="1nurS4m0ilLojCcghloAa8tB0ct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicGrammar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,8 +182,20 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.date_time_operation">
-    <configuration name="20210228work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.20210307work">
+    <configuration name="20210303work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210228work.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210303work.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contents_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20210307work" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +224,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/contents_operation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210307work.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="file_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +266,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyPractice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/file_operation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyPractice/file_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module01-calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/module01-calc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20210307work" />
+        <item itemvalue="Python.20210303work" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.file_practice" />
         <item itemvalue="Python.date_time_operation" />
-        <item itemvalue="Python.20210228work" />
-        <item itemvalue="Python.contents_operation" />
-        <item itemvalue="Python.file_operation" />
-        <item itemvalue="Python.module01-calc" />
       </list>
     </recent_temporary>
   </component>
@@ -224,12 +371,51 @@
       <option name="project" value="LOCAL" />
       <updated>1614338174430</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="时间日期操作&#10;作业更改">
+      <created>1614778942996</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614778942996</updated>
+    </task>
+    <task id="LOCAL-00009" summary="文件实战操作&#10;作业更改">
+      <created>1614917165065</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614917165065</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python" />
-    <option name="LAST_COMMIT_MESSAGE" value="python" />
+    <MESSAGE value="时间日期操作&#10;作业更改" />
+    <MESSAGE value="文件实战操作&#10;作业更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件实战操作&#10;作业更改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613718934751" />
@@ -238,50 +424,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614221895769" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1614338161288">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1614917158450">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338161288" />
-    <state width="1244" height="515" key="GridCell.Tab.0.bottom" timestamp="1614777550944">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614917158450" />
+    <state width="1248" height="222" key="GridCell.Tab.0.bottom" timestamp="1614924013003">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="515" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
-    <state width="1244" height="515" key="GridCell.Tab.0.center" timestamp="1614777550944">
+    <state width="1248" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924013003" />
+    <state width="1248" height="222" key="GridCell.Tab.0.center" timestamp="1614924013003">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="515" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
-    <state width="1244" height="515" key="GridCell.Tab.0.left" timestamp="1614777550944">
+    <state width="1248" height="222" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924013003" />
+    <state width="1248" height="222" key="GridCell.Tab.0.left" timestamp="1614924013003">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="515" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
-    <state width="1244" height="515" key="GridCell.Tab.0.right" timestamp="1614777550944">
+    <state width="1248" height="222" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924013003" />
+    <state width="1248" height="222" key="GridCell.Tab.0.right" timestamp="1614924013003">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="515" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614777550944" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1614338301026">
+    <state width="1248" height="222" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924013003" />
+    <state width="1244" height="200" key="GridCell.Tab.1.bottom" timestamp="1614924012997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1614338301026">
+    <state width="1244" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924012997" />
+    <state width="1244" height="200" key="GridCell.Tab.1.center" timestamp="1614924012997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1614338301026">
+    <state width="1244" height="200" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924012997" />
+    <state width="1244" height="200" key="GridCell.Tab.1.left" timestamp="1614924012997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1614338301026">
+    <state width="1244" height="200" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924012997" />
+    <state width="1244" height="200" key="GridCell.Tab.1.right" timestamp="1614924012997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338301026" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1613817281389">
+    <state width="1244" height="200" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614924012997" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1614779025011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613817281389" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614338198149">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614779025011" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614917174358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614338198149" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614917174358" />
     <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614660957799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -290,9 +476,56 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981250579" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1613985030975">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614846623246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613985030975" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614846623246" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/object_characteristic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/BasicGrammar/data-type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/BasicGrammar/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/BasicGrammar/function-module.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/HomeWork/20210307work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/object_abstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/object_oriented.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
