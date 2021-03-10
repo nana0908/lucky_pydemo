@@ -38,7 +38,7 @@ print(f'{num1}/{num2}={value.division()}')
 创建一个班级类：
 属性：学生，班级名 方法：添加学生，删除学生，点名
 '''
-
+'''
 class Student:
     studentname = ['xiaoming','zhangsan','lisi']
     def __init__(self, name, age, id):
@@ -80,6 +80,53 @@ sevenclss.studentInfo()
 sevenclss.addstudent('libai')
 sevenclss.delstudent('lisi')
 sevenclss.rollcall()
+'''
+class Student:
+    name01 = None
+    def __init__(self, name, age, id):
+        self.name = name
+        self.age = age
+        self.id = id
+    def replied(self):#答到方法
+        print(f'我叫{self.name},今年{self.age}岁了，学号是{self.id}')
+
+class SClass():
+    students = []#存类对象
+    def __init__(self,Student,classname):#Student为类对象
+        self.students.append(Student)
+        self.classname = classname
+    def addstudent(self,name,age,id):
+        self.students.append(Student(name,age,id))
+
+    def delstudent(self,name):
+        names = []
+        for i in range(len(self.students)):
+            names.append(self.students[i].name)
+        if name in names:
+            for j in range(len(self.students)):
+                if name == self.students[j].name:
+                    self.students.remove(self.students[j])#删除学生
+                    break
+        else:
+            print(f'{name}不存在')
+    def rollcall(self,name):
+        names = []
+        for i in range(len(self.students)):
+            names.append(self.students[i].name)
+        if name in names:
+            for j in range(len(self.students)):
+                if name == self.students[j].name:
+                    self.students[j].replied()#点名
+        else:
+            print(f'{name}不存在')
+
+zhangsan = Student('zhangsan',23,'001')
+sevenclass = SClass(zhangsan,'7class')
+sevenclass.rollcall('zhangsan')
+sevenclass.addstudent('lisi',24,'002')
+sevenclass.rollcall('lisi')
+sevenclass.delstudent('lisi')#删除lisi
+sevenclass.rollcall('lisi')
 
 '''
 3、设计一个车类，属性：车的类型、车的速度、
@@ -123,44 +170,62 @@ ecar.increased_energy()
 
 from abc import ABCMeta,abstractmethod
 class DataType(metaclass=ABCMeta):
+    def __init__(self,data):
+        self.data = data
     @abstractmethod
     def length(self):
         pass
 class Dict(DataType):
-    def length(self,dict_01):
-        print(f'字典形式的数据，长度为{len(dict_01)}')
+    def __init__(self,data):
+        super().__init__(data)
+    def length(self):
+        print(f'字典形式的数据，长度为{len(self.data)}')
 class List(DataType):
-    def length(self,list_01):
-        print(f'列表形式的数据，长度为{len(list_01)}')
+    def __init__(self,data):
+        super().__init__(data)
+    def length(self):
+        print(f'列表形式的数据，长度为{len(self.data)}')
 class String(DataType):
-    def length(self,string_01):
-        print(f'字符串形式的数据，长度为{len(string_01)}')
+    def __init__(self,data):
+        super().__init__(data)
+    def length(self):
+        print(f'字符串形式的数据，长度为{len(self.data)}')
 class Tuple(DataType):
-    def length(self,tuple_01):
-        print(f'元组形式的数据，长度为{len(tuple_01)}')
+    def __init__(self,data):
+        super().__init__(data)
+    def length(self):
+        print(f'元组形式的数据，长度为{len(self.data)}')
 
-dict01 = {'name':'lisa','tel':'1667347588','age':23}
-list01 = [1,2,3,4,5]
-string = 'helloworld'
-tuple01 = (1,2,3,2,3)
-#print(type(dict01))
+dict01 = Dict({'name':'lisa','tel':'1667347588','age':23})
+list01 = List([1,2,3,4,5])
+string = String('helloworld')
+tuple01 = Tuple((1,2,3,2,3))
+
 def get_length(object):
-    if isinstance(object,dict):#isinstance(o,type)判断对象类型
-        dict_01 = Dict()
-        dict_01.length(object)
-    elif isinstance(object,list):
-        list_01 = List()
-        list_01.length(object)
-    elif isinstance(object,str):
-        string = String()
-        string.length(object)
-    elif isinstance(object,tuple):
-        tuple_01 = Tuple()
-        tuple_01.length(object)
+    object.length()
+
 get_length(dict01)
 get_length(list01)
 get_length(string)
 get_length(tuple01)
+#print(type(dict01))
+# def get_length(object):
+#     if isinstance(object,dict):#isinstance(o,type)判断对象类型
+#         dict_01 = Dict()
+#         dict_01.length(object)
+#     elif isinstance(object,list):
+#         list_01 = List()
+#         list_01.length(object)
+#     elif isinstance(object,str):
+#         string = String()
+#         string.length(object)
+#     elif isinstance(object,tuple):
+#         tuple_01 = Tuple()
+#         tuple_01.length(object)
+# get_length(dict01)
+# get_length(list01)
+# get_length(string)
+# get_length(tuple01)
 
 '''
 5、 写一个传奇游戏中的猪类，类中有属性：颜色、个头、攻击力、准确度。有一个展示猪信息的方法。
