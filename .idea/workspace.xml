@@ -5,14 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_2_12_56__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/exception_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/pip_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyPractice/excel_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyPractice/students_base_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/HomeWork/20210307work.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/HomeWork/20210307work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PyModule/object_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/object_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PyModule/object_oriented.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/object_oriented.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/object_oriented.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/object_characteristic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/exception_handling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/pip_operation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyPractice/file_practice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyPractice/students_base_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/PyPractice/excel_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/module01-calc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/contents_operation.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/PyModule/object_abstract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,6 +122,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/venv/PyModule/object_abstract.py" />
+        <option value="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" />
+        <option value="$PROJECT_DIR$/venv/PyModule/exception_handling.py" />
+        <option value="$PROJECT_DIR$/venv/PyModule/pip_operation.py" />
+        <option value="$PROJECT_DIR$/venv/PyPractice/datacouce_info.py" />
+        <option value="$PROJECT_DIR$/venv/PyPractice/excel_utils.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
@@ -32,6 +143,77 @@
   </component>
   <component name="ProjectId" id="1nurS4m0ilLojCcghloAa8tB0ct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (lucky_pydemo) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (lucky_pydemo) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (lucky_pydemo) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (lucky_pydemo) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="PyPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +221,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../idcard_generator" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -49,71 +231,20 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.20210307work">
-    <configuration name="20210303work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210303work.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20210307work" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/20210307work.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="date_time_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/date_time_operation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="file_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.excel_utils">
+    <configuration name="excel_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,7 +256,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyPractice/file_practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyPractice/excel_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +265,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exception_handling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +273,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/HomeWork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/HomeWork/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/exception_handling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_abstract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/object_abstract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_characteristic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_oriented" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/object_oriented.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,15 +351,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20210307work" />
-        <item itemvalue="Python.20210303work" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.file_practice" />
-        <item itemvalue="Python.date_time_operation" />
+        <item itemvalue="Python.excel_utils" />
+        <item itemvalue="Python.exception_handling" />
+        <item itemvalue="Python.object_characteristic" />
+        <item itemvalue="Python.object_abstract" />
+        <item itemvalue="Python.object_oriented" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -247,8 +441,37 @@
       <option name="project" value="LOCAL" />
       <updated>1615364810211</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="作业更改">
+      <created>1615383142342</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615383142342</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python" />
@@ -264,50 +487,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614221895769" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1615364802786">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1615383133563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615364802786" />
-    <state width="1244" height="221" key="GridCell.Tab.0.bottom" timestamp="1615382419506">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383133563" />
+    <state width="1244" height="107" key="GridCell.Tab.0.bottom" timestamp="1615808723431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="221" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615382419506" />
-    <state width="1244" height="221" key="GridCell.Tab.0.center" timestamp="1615382419505">
+    <state width="1244" height="107" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723431" />
+    <state width="1244" height="107" key="GridCell.Tab.0.center" timestamp="1615808723431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="221" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615382419505" />
-    <state width="1244" height="221" key="GridCell.Tab.0.left" timestamp="1615382419505">
+    <state width="1244" height="107" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723431" />
+    <state width="1244" height="107" key="GridCell.Tab.0.left" timestamp="1615808723430">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="221" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615382419505" />
-    <state width="1244" height="221" key="GridCell.Tab.0.right" timestamp="1615382419506">
+    <state width="1244" height="107" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723430" />
+    <state width="1244" height="107" key="GridCell.Tab.0.right" timestamp="1615808723431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="221" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615382419506" />
-    <state width="1244" height="200" key="GridCell.Tab.1.bottom" timestamp="1615380852751">
+    <state width="1244" height="107" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723431" />
+    <state width="1244" height="200" key="GridCell.Tab.1.bottom" timestamp="1615383298386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615380852751" />
-    <state width="1244" height="200" key="GridCell.Tab.1.center" timestamp="1615380852750">
+    <state width="1244" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
+    <state width="1244" height="200" key="GridCell.Tab.1.center" timestamp="1615383298386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615380852750" />
-    <state width="1244" height="200" key="GridCell.Tab.1.left" timestamp="1615380852750">
+    <state width="1244" height="200" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
+    <state width="1244" height="200" key="GridCell.Tab.1.left" timestamp="1615383298386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615380852750" />
-    <state width="1244" height="200" key="GridCell.Tab.1.right" timestamp="1615380852750">
+    <state width="1244" height="200" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
+    <state width="1244" height="200" key="GridCell.Tab.1.right" timestamp="1615383298386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615380852750" />
+    <state width="1244" height="200" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1614779025011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614779025011" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615364810408">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615383149023">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615364810408" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383149023" />
     <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614660957799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -320,5 +543,84 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614846623246" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="235">
+            <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/object_oriented.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/object_abstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/contents_operation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/object_characteristic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/exception_handling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/module01-calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyPractice/file_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyModule/pip_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyPractice/students_base_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PyPractice/excel_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
