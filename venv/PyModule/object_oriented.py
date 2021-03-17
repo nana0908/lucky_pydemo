@@ -24,20 +24,21 @@
 #类和对象的区别
 '''
 '''
-创建类和对象
-创建类：class 类名：
+创建类和对象。类命名：一般以驼峰式命名ClassName
+创建类：class ClassName：
     pass（具体实现）
 创建对象： 对象名称 = 类名()
 '''
-class people:
-    '''我是people类的说明，只能放在第一行'''
+class People:
+    '''我是People类的说明，只能放在第一行'''
     name = 'zhangsan'#类属性，类属性可以直接通过类调用
 
     #构造方法，完成对象的初始化，在创建对象的时候系统会默认调用
-    def __init__(self,name,age,address):
-        self.name = name
+    def __init__(self,name,age,address,idno):
+        self.name = name#self是python类中示例方法必带的一个参数，但不需要传值，相当于java中的this，代表对象本身
         self.age = age#实例属性
         self.address = address
+        self.__idno = idno#私有属性，以__开头,私有的属性，只能在类的内部使用，在类的外部是使用不了的
     def say(self):#普通方法（称为：实例方法，第一个参数默认self）类里面的方法都会自带self参数，表示当前类的所有属性和方法
         print('类里面的方法')
 
@@ -59,33 +60,33 @@ class people:
         return self.age + other.age
 
 
-# zhangsan = people()
+# zhangsan = People()#创建对象
 # print(zhangsan.name)#调用对象的属性和方法：对象名.属性或者方法名称
 # zhangsan.say()
 # del zhangsan#手动释放资源
-zhangsan = people('zhangsan',20,'湖南岳阳')
-lisi = people('lisi',24,'湖南长沙')#创建对象的时候直接初始化，（完成对象的初始化）
+zhangsan = People('zhangsan',20,'湖南岳阳')
+lisi = People('lisi',24,'湖南长沙')#创建对象的时候直接初始化，（完成对象的初始化）
 print(lisi.name)#通过对象访问类属性
-print(people.name)#通过类名访问类属性
+print(People.name)#通过类名访问类属性
 print(lisi.age)#实例属性只能通过对象访问
 #内置属性：python中自带的属性： 类名.内置属性
-print(people.__dict__)#打印出类的所有属性
-print(people.__doc__)#类的文档字符串
+print(People.__dict__)#打印出类的所有属性
+print(People.__doc__)#类的文档字符串
 print(lisi.__doc__)#通过对象访问内置属性，内置属性可以通过对象或类访问
-print(people.__name__)#类名
-print(people.__module__)#类定义所在的模块
-print(people.__bases__)#类的所有父类构成元素
+print(People.__name__)#类名
+print(People.__module__)#类定义所在的模块
+print(People.__bases__)#类的所有父类构成元素
 lisi.say()
-people.say('汤姆')#通过类访问实例方法，此时self需要传值
+People.say('汤姆')#通过类访问实例方法，此时self需要传值
 lisi.run()
-people.run()#类方法可以通过对象和类访问
+People.run()#类方法可以通过对象和类访问
 lisi.sleep()
-people.sleep()#静态方法可以通过对象和类访问
+People.sleep()#静态方法可以通过对象和类访问
 #练习：创建一个狗类，属性：name，age，color 方法：睡觉、吃、跑
 print(zhangsan)#默认调用__str__方法
 print(zhangsan.age + lisi.age)
 print(zhangsan + lisi)#默认调用__add__()方法
-class dog:
+class Dog:
     name = None
     age = None
     color = None
@@ -96,11 +97,11 @@ class dog:
     def run(self):
         print('我跑了')
 
-ahuang = dog()
-dog.name = 'Ahuang'
-dog.age = 10
-dog.color = 'yellow'
-print(f'我是{dog.name},我{dog.age}岁了，是一只{dog.color}色的狗狗')
+ahuang = Dog()
+Dog.name = 'Ahuang'
+Dog.age = 10
+Dog.color = 'yellow'
+print(f'我是{Dog.name},我{Dog.age}岁了，是一只{Dog.color}色的狗狗')
 ahuang.sleep()
 ahuang.run()
 ahuang.eat('狗粮')

@@ -36,5 +36,11 @@ seek()函数：语法：seek(offset,from) 改变文件指针位置
 创建/切换/删除目录
 ### date_time_operation 日期时间操作
 time和datetime模块处理时间：获取当前时间，时间格式化，时间戳转换等
+### object_oriented 面向对象
+类与对象的区别
+### object_charateristic 面向对象的三大特征
+封装 继承 多态
+### object_abstract 抽象类
+### exception_handing 异常处理
 ## HomeWork
 学习过程的作业
