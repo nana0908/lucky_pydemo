@@ -53,34 +53,47 @@ class MyTime:
         print(f'时间为：{self.__hour}时{self.__minute}分{self.__second}秒')
     def addSecond(self,sec):
         if self.__second + sec > 60:
-            print(f'{sec}秒之后秒数为：{self.__second + sec - 60}秒')
+            self.__second = self.__second + sec - 60
+            self.__minute = self.__minute + (sec // 60)
+            print(f'{sec}秒之后秒数为：{self.__second}秒')
         else:
-            print(f'{sec}秒之后秒数为：{self.__second + sec}秒')
+            self.__second = self.__second + sec
+            print(f'{sec}秒之后秒数为：{self.__second}秒')
     def addMinute(self,min):
         if self.__minute + min > 60:
-            print(f'{min}分钟之后分钟数为：{self.__minute + min - 60}分')
+            self.__minute = self.__minute + min - 60
+            print(f'{min}分钟之后分钟数为：{self.__minute}分')
         else:
-            print(f'{min}分钟之后分钟数为：{self.__minute + min}分')
+            self.__minute = self.__minute + min
+            print(f'{min}分钟之后分钟数为：{self.__minute}分')
     def addHour(self,hou):
         if self.__hour + hou > 24:
-            print(f'{hou}小时之后小时数为：{self.__hour + hou - 24}时')
+            self.__hour = self.__hour + hou - 24
+            print(f'{hou}小时之后小时数为：{self.__hour}时')
         else:
-            print(f'{hou}小时之后小时数为：{self.__hour + hou}时')
+            self.__hour = self.__hour + hou
+            print(f'{hou}小时之后小时数为：{self.__hour}时')
     def subSecond(self,sec):
         if self.__second - sec < 0:
-            print(f'{sec}秒之后秒数为：{self.__second - sec + 60}秒')
+            self.__second = self.__second - sec + 60
+            print(f'{sec}秒之后秒数为：{self.__second}秒')
         else:
-            print(f'{sec}秒之后秒数为：{self.__second - sec}秒')
+            self.__second = self.__second - sec
+            print(f'{sec}秒之后秒数为：{self.__second}秒')
     def subMinute(self,min):
         if self.__minute - min < 0:
-            print(f'{min}分钟之后分钟数为：{self.__minute - min + 60}分')
+            self.__minute = self.__minute - min + 60
+            print(f'{min}分钟之后分钟数为：{self.__minute}分')
         else:
-            print(f'{min}分钟之后分钟数为：{self.__minute - min}分')
+            self.__minute = self.__minute - min
+            print(f'{min}分钟之后分钟数为：{self.__minute}分')
     def subHour(self, hou):
         if self.__hour - hou < 0:
-            print(f'{hou}小时之后小时数为：{self.__hour - hou + 24}时')
+            self.__hour = self.__hour - hou + 24
+            print(f'{hou}小时之后小时数为：{self.__hour}时')
         else:
-            print(f'{hou}小时之后小时数为：{self.__hour - hou}时')
+            self.__hour = self.__hour - hou
+            print(f'{hou}小时之后小时数为：{self.__hour}时')
     def getSecond(self):
         return self.__second
     def setSecond(self,sec):
@@ -97,11 +110,13 @@ class MyTime:
         self.__hour = hou
         return self.__hour
 
-# time = MyTime(10,36,40)
-# time.addSecond(70)
-# time.addSecond(10)
-# time.subHour(10)
-# time.subHour(20)
+time = MyTime(10,36,40)
+time.addSecond(70)
+time.display()
+time.addSecond(10)
+time.subHour(10)
+time.subHour(20)
+time.display()
 class GetTime:
     def __init__(self,Time):
         self.time = Time
@@ -110,9 +125,9 @@ class GetTime:
     def set_time(self,hou,min,sec):
         print(f'修改后时间为：{self.time.setHour(hou)}时{self.time.setMinute(min)}分{self.time.setSecond(sec)}秒')
 
-# set_time = GetTime(time)
-# set_time.get_time()
-# set_time.set_time(12,10,34)
+set_time = GetTime(time)
+set_time.get_time()
+set_time.set_time(12,10,34)
 '''
 设计一个交通工具类vehicle，
 其中的属性包括速度speed、种类kind、颜色color；方法包括：设置颜色setColor，取得颜色getColor。
@@ -136,13 +151,13 @@ class Car:
         self.passenger = passenger
     def getMaxSpeed(self):
         print(f'最大速度为：{self.vehicle.speed}')
-# veh = Vehicle('1000m/s','宝马','白色')
-# car = Car(veh,4)
-# print(car.vehicle.speed)
-# print(car.vehicle.kind)
-# print(car.vehicle.color)
-# print(car.passenger)
-# car.getMaxSpeed()
+veh = Vehicle('1000m/s','宝马','白色')
+car = Car(veh,4)
+print(car.vehicle.speed)
+print(car.vehicle.kind)
+print(car.vehicle.color)
+print(car.passenger)
+car.getMaxSpeed()
 
 
 '''
@@ -211,4 +226,33 @@ else:
     print('用户名正确')
 '''
 3、调研完成python读取 .ini文件
+[user]
+user = admin
+password = 123456
+
+[info]
+name = lisa
+age = 18
 '''
+
+import configparser
+import os
+current_path = os.path.dirname(__file__)
+ini_path = os.path.join(current_path, '../PyFile/userinfo.ini')
+print(ini_path)
+cf = configparser.ConfigParser()#读取文件
+cf.read(ini_path)
+print(cf)
+
+sect = cf.sections()#获取所有区域
+print('sections:',sect)
+
+for s in sect:
+    print(cf.options(s))#打印每个区域的所有属性
+    item = cf.items(s)#打印每个区域的键值对
+    print(item)
+
+items = cf.items('user')#获取单个区域键值对
+print(items)
+
+

@@ -5,17 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/PyModule/exception_handling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyModule/pip_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyPractice/excel_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyPractice/students_base_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_24,_20_51_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_24__20_51__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Config/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/LearnRecord/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/LearnRecord/file_20210228.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/LearnRecord/function_20210224.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/LearnRecord/function_20210228.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Log/python.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyFile/userinfo.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/class_encapsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/excel_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/faction_encapsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/python_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/read_config_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/student_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/PyModule/use_config_utits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Utils/config_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Utils/log_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lucky_pydemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lucky_pydemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/PyModule/object_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/object_abstract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/PyModule/object_oriented.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PyModule/object_oriented.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/HomeWork/20210317work.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/HomeWork/20210317work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/typing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/typing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/utils.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,41 +249,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.excel_utils">
-    <configuration name="excel_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyPractice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyPractice/excel_utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="exception_handling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.class_encapsulation">
+    <configuration name="class_encapsulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,7 +262,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/exception_handling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/class_encapsulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,7 +271,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="object_abstract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="config_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/utils/config_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lucky_pydemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Utils/log_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +325,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/object_abstract.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/python_log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,7 +334,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="object_characteristic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="use_config_utits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,28 +346,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/object_characteristic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="object_oriented" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lucky_pydemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/PyModule" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/object_oriented.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/PyModule/use_config_utits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,15 +357,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.excel_utils" />
-        <item itemvalue="Python.exception_handling" />
-        <item itemvalue="Python.object_characteristic" />
-        <item itemvalue="Python.object_abstract" />
-        <item itemvalue="Python.object_oriented" />
+        <item itemvalue="Python.class_encapsulation" />
+        <item itemvalue="Python.log_utils" />
+        <item itemvalue="Python.python_log" />
+        <item itemvalue="Python.use_config_utits" />
+        <item itemvalue="Python.config_utils" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -473,6 +479,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python" />
     <MESSAGE value="时间日期操作&#10;作业更改" />
@@ -480,69 +489,16 @@
     <MESSAGE value="作业更改" />
     <option name="LAST_COMMIT_MESSAGE" value="作业更改" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613718934751" />
-    <state x="366" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613718934751" />
-    <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1614221895769">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="454" y="230" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614221895769" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1615383133563">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383133563" />
-    <state width="1244" height="107" key="GridCell.Tab.0.bottom" timestamp="1615808723431">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="107" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723431" />
-    <state width="1244" height="107" key="GridCell.Tab.0.center" timestamp="1615808723431">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="107" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723431" />
-    <state width="1244" height="107" key="GridCell.Tab.0.left" timestamp="1615808723430">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="107" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723430" />
-    <state width="1244" height="107" key="GridCell.Tab.0.right" timestamp="1615808723431">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="107" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615808723431" />
-    <state width="1244" height="200" key="GridCell.Tab.1.bottom" timestamp="1615383298386">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
-    <state width="1244" height="200" key="GridCell.Tab.1.center" timestamp="1615383298386">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
-    <state width="1244" height="200" key="GridCell.Tab.1.left" timestamp="1615383298386">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
-    <state width="1244" height="200" key="GridCell.Tab.1.right" timestamp="1615383298386">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1244" height="200" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383298386" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1614779025011">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614779025011" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615383149023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1615383149023" />
-    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614660957799">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614660957799" />
-    <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613981250579">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="197" y="70" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1613981250579" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614846623246">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1614846623246" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

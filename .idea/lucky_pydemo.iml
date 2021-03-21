@@ -2,12 +2,25 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/BasicGrammar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/FunctionApplication" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/HomeWork" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/LearnRecord" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/Lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/PyFile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/PyModule" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/Scripts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/py_project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/py_project/read_excel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/py_project/test_case" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/py_project/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/Config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/Log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/venv/Utils" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-  <component name="TestRunnerService">
-    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
