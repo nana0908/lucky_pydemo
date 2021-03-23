@@ -6,4 +6,7 @@ class StudentInfo:
         self.stu_age = stu_age
         self.stu_score = stu_score
     def student_info(self):
-        stu_info = [self.stu_number, self.stu_name, self.stu_sex, self.stu_age, self.stu_score]
+        stu_info = [self.stu_number, self.stu_name, self.stu_sex,
+                    self.stu_age, self.stu_score]
+    def get_stu_num(self):
+        return self.stu_number

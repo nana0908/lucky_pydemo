@@ -42,3 +42,4 @@ for i in range(len(stusInfo)):
 stusinfo_obj = read_excel_save_list_obj(excel_path)
 for i in range(len(stusinfo_obj)):
     print(stusinfo_obj[i].stu_name)
+
