@@ -30,11 +30,12 @@ class ExcelUtil:
                     break  # 防止循环的进行判断，出现值覆盖的情况
                 else:
                     cell_value = self.sheet.cell_value(row_index, col_index)  # 非单元格取单元格本身的值
-            else:
-                cell_value = self.sheet.cell_value(row_index, col_index)  # 非单元格取单元格本身的值
+        else:
+            cell_value = self.sheet.cell_value(row_index, col_index)  # 非单元格取单元格本身的值
         return cell_value
+
     #取excel数据并以列表字典的形式返回
-    def get_sheet_value_by_list(self):
+    def __get_sheet_value_by_list(self):
         all_data_list = []
         first_row = self.sheet.row(0)
         for i in range(1, self.sheet.nrows):
@@ -44,14 +45,33 @@ class ExcelUtil:
             all_data_list.append(row_dict)
         return all_data_list
 
+    # 读取excel转成dict格式{case01:[{testcase01}],case02:[{step01},{step02}]...}
+    def __get_test_case_data_by_dict(self):
+        test_cases = {}
+        for i in self.__get_sheet_value_by_list():
+            test_cases.setdefault(i['测试用例编号'], []).append(i)
+        return test_cases
+    # 优化测试数据格式为[{'case_name':'case01',case_info:[{case01_step01}]},
+    # {'case_name':'case02',case_info:[{case02_step01},{case02_step02},...]},...]
+    def testcase_data_list(self):
+        testcase_list = []
+        for k, v in self.__get_test_case_data_by_dict().items():
+            one_case_dict = {}
+            one_case_dict['case_name'] = k
+            one_case_dict['case_info'] = v
+            testcase_list.append(one_case_dict)
+        return testcase_list
+
 
 # 测试类
 if __name__ == '__main__':
     current_path = os.path.dirname(__file__)
-    excel_path = os.path.join(current_path, '../test_case/test_data.xlsx')
+    excel_path = os.path.join(current_path, '../test_case/test_case.xlsx')
     excel_data = ExcelUtil(excel_path, 'Sheet1')
-    print(excel_data.get_row_count())
-    print(excel_data.get_merge_cell_value(3, 0))
-    all_data = excel_data.get_sheet_value_by_list()
-    for i in all_data:
-        print(i)
+    # print(excel_data.get_row_count())
+    # print(excel_data.get_merge_cell_value(3, 0))
+    # all_data = excel_data.get_sheet_value_by_list()
+    # for i in all_data:
+    #     print(i)
+    test_case = excel_data.testcase_data_list()
+    print(test_case)

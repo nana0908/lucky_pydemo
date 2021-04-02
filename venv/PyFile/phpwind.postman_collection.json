@@ -1,0 +1,514 @@
+{
+	"info": {
+		"_postman_id": "c4607fd7-c7f1-4fde-b482-00ee03c14c41",
+		"name": "phpwind",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "登录-发帖-退出",
+			"item": [
+				{
+					"name": "获取csrf_token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a4ecb5e2-4db4-423a-a6f1-4637344b2784",
+								"exec": [
+									"\r",
+									"pm.test(\"响应体包含csrf_token\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"csrf_token\");\r",
+									"});\r",
+									"\r",
+									"var str1='<input type=\"hidden\" name=\"csrf_token\" value=\"7106c28caf3bc948\"/>';\r",
+									"var csrf_token=str1.match( new RegExp('<input type=\"hidden\" name=\"csrf_token\" value=\"(.+?)\"/>'))[1];\r",
+									"tests[csrf_token]=true\r",
+									"//设置成全局变量\r",
+									"pm.globals.set(\"csrf_token\",csrf_token)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{url}}/phpwind",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "登录",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "47585983-0259-4b6b-92f9-97fcf61239c0",
+								"exec": [
+									"\r",
+									"pm.test(\"响应体包含csrf_token\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"csrf_token\");\r",
+									"});\r",
+									"\r",
+									"var str1='_statu=TXQ2UU0wTTBVZ1ZqOGxuWmZ1YzhwdDVzUEc4ZUlqQXA0QXJsekVLY3N5SUJxNWR5dWk1NTZRRVBlVGJIT1d1ZVBDMFZWdyUzRCUzRHx8\"';\r",
+									"var _statu=str1.match( new RegExp('_statu=(.+?)\"'))[1];\r",
+									"tests[_statu]=true\r",
+									"//设置成全局变量\r",
+									"pm.globals.set(\"_statu\",_statu)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "ytt123",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "ytt123",
+									"type": "text"
+								},
+								{
+									"key": "csrf_token",
+									"value": "{{csrf_token}}",
+									"type": "text"
+								},
+								{
+									"key": "csrf_token",
+									"value": "{{csrf_token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{url}}/phpwind/index.php?m=u&c=login&a=dologin",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "m",
+									"value": "u"
+								},
+								{
+									"key": "c",
+									"value": "login"
+								},
+								{
+									"key": "a",
+									"value": "dologin"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "登录成功后的请求",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f523b769-0126-4707-8531-c82ed861fea5",
+								"exec": [
+									"pm.test(\"响应体包含ytt123\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"ytt123\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "csrf_token",
+								"value": "{{csrf_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{url}}/phpwind/index.php?m=u&c=login&a=welcome&_statu={{_statu}}",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "m",
+									"value": "u"
+								},
+								{
+									"key": "c",
+									"value": "login"
+								},
+								{
+									"key": "a",
+									"value": "welcome"
+								},
+								{
+									"key": "_statu",
+									"value": "{{_statu}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发帖",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "bca0f416-cf56-40ef-bb8b-1f96de395e48",
+								"exec": [
+									"pm.test(\"响应体包含success\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"success\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "atc_title",
+									"value": "爱的发声23233",
+									"type": "text"
+								},
+								{
+									"key": "atc_content",
+									"value": "打发手动阀23423",
+									"type": "text"
+								},
+								{
+									"key": "pid",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tid",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "special",
+									"value": "default",
+									"type": "text"
+								},
+								{
+									"key": "reply_notice",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "csrf_token",
+									"value": "{{csrf_token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{url}}/phpwind/index.php?c=post&a=doadd&_json=1&fid=77",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "c",
+									"value": "post"
+								},
+								{
+									"key": "a",
+									"value": "doadd"
+								},
+								{
+									"key": "_json",
+									"value": "1"
+								},
+								{
+									"key": "fid",
+									"value": "77"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "退出",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "ad9c4ee1-ba49-4202-942f-bdd232739799",
+								"exec": [
+									"pm.test(\"响应体包含登录\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"登录\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{url}}/phpwind/index.php?m=u&c=login&a=logout",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "m",
+									"value": "u"
+								},
+								{
+									"key": "c",
+									"value": "login"
+								},
+								{
+									"key": "a",
+									"value": "logout"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "登录论坛-》修改个人信息",
+			"item": [
+				{
+					"name": "获取csrf_token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3469d04b-48cb-4f4c-839c-a265867a2023",
+								"exec": [
+									"pm.test(\"响应体包含csrf_token\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"csrf_token\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{url}}/phpwind",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "登录",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "ytt23",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "ytt123",
+									"type": "text"
+								},
+								{
+									"key": "csrf_token",
+									"value": "{{csrf_token}}",
+									"type": "text"
+								},
+								{
+									"key": "csrf_token",
+									"value": "{{csrf_token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{url}}/phpwind/index.php?m=u&c=login&a=dologin",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "m",
+									"value": "u"
+								},
+								{
+									"key": "c",
+									"value": "login"
+								},
+								{
+									"key": "a",
+									"value": "dologin"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更改用户信息",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "realname",
+									"value": "ytt",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "byear",
+									"value": "1995",
+									"type": "text"
+								},
+								{
+									"key": "bmonth",
+									"value": "05",
+									"type": "text"
+								},
+								{
+									"key": "bday",
+									"value": "09",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "hometown",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "homepage",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "csrf_token",
+									"value": "{{csrf_token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{url}}/phpwind/index.php?m=profile&a=dorun",
+							"protocol": "http",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"phpwind",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "m",
+									"value": "profile"
+								},
+								{
+									"key": "a",
+									"value": "dorun"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "论坛的注册",
+			"item": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -55,6 +55,14 @@ for i in range(1, sheet.nrows):#从第二行开始遍历
         row_dict[first_row[j].value] = get_merge_cell_values(i, j)
     all_data_list.append(row_dict)
 
+print(all_data_list)
 for i in all_data_list:
     print(i)
 
+# for i in all_data_list:
+#     case_list = {}
+#     case_list.setdefault(i[])
+a = {'one': 1, 'two': 2}
+a.setdefault('one', 2) # 设置默认值，如果该key在dict中存在，不会修改dict中key的值
+a.setdefault('three', 3) # 如果该key不存在，则新增该键值对
+print(a)
