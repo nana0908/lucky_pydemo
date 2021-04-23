@@ -19,6 +19,19 @@ class ConfigUtils:
         casedatapath = self.cfg.get('path', 'CASE_DATA_PATH')
         return casedatapath
 
+    @property
+    def LOG_PATH(self):
+        log_path = self.cfg.get('path', 'LOG_PATH')
+        return log_path
+
+    @property
+    def LOG_LEVEL(self):
+        log_level = int(self.cfg.get('log', 'LOG_LEVEL'))
+        return log_level
+
+current_path = os.path.dirname(__file__)
+config_path = os.path.join(current_path, '../local_config/config.ini')
+configUtils = ConfigUtils(config_path)
 
 # 测试类
 if __name__ == '__main__':
