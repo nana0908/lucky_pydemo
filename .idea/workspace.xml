@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71c268f5-beb3-4069-b051-e1948d755400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface_automation/common/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_automation/common/config_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_automation/common/testdata_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_automation/local_config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_automation/test_case/test_case.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PyFile/phpwind.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_22_10_24_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_22_10_24__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_automation/common/excel_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_automation/common/excel_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_automation/common/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_automation/common/read_excel.py" afterDir="false" />
     </list>
+    <ignored path="D:\PycharmProjects\lucky_pydemo\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lucky_pydemo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,19 +24,49 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>静态</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
   <component name="ProjectId" id="1nurS4m0ilLojCcghloAa8tB0ct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lucky_pydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucky_pydemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../idcard_generator" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="D:/pytestDemo" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -56,7 +81,19 @@
       <recent name="D:\PycharmProjects\lucky_pydemo\interface_automation\test_case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testdata_utils">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.log_utils">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="log_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lucky_pydemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +169,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_automation/common/read_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_automation/common/log_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.log_utils" />
         <item itemvalue="Python.testdata_utils" />
         <item itemvalue="Python.config_utils" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.excel_utils" />
-        <item itemvalue="Python.read_excel" />
       </list>
     </recent_temporary>
   </component>
@@ -275,11 +312,60 @@
       <option name="project" value="LOCAL" />
       <updated>1616754436264</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="测试数据封装">
+      <created>1617358290900</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617358290901</updated>
+    </task>
+    <task id="LOCAL-00015" summary="日志封装">
+      <created>1619173183433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619173183433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" sideWeight="0.5026455" side_tool="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python" />
@@ -287,7 +373,9 @@
     <MESSAGE value="文件实战操作&#10;作业更改" />
     <MESSAGE value="作业更改" />
     <MESSAGE value="接口自动化" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口自动化" />
+    <MESSAGE value="测试数据封装" />
+    <MESSAGE value="日志封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志封装" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1616554224219">
@@ -298,26 +386,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="383" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617267561118" />
-    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1616754428075">
+    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1617358279505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1616754428075" />
-    <state width="1259" height="230" key="GridCell.Tab.0.bottom" timestamp="1617273329817">
+    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617358279505" />
+    <state width="1259" height="230" key="GridCell.Tab.0.bottom" timestamp="1617874391887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="230" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617273329817" />
-    <state width="1259" height="230" key="GridCell.Tab.0.center" timestamp="1617273329817">
+    <state width="1259" height="230" key="GridCell.Tab.0.bottom/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617874391887" />
+    <state width="1259" height="230" key="GridCell.Tab.0.center" timestamp="1617874391887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="230" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617273329817" />
-    <state width="1259" height="230" key="GridCell.Tab.0.left" timestamp="1617273329817">
+    <state width="1259" height="230" key="GridCell.Tab.0.center/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617874391887" />
+    <state width="1259" height="230" key="GridCell.Tab.0.left" timestamp="1617874391887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="230" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617273329817" />
-    <state width="1259" height="230" key="GridCell.Tab.0.right" timestamp="1617273329817">
+    <state width="1259" height="230" key="GridCell.Tab.0.left/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617874391887" />
+    <state width="1259" height="230" key="GridCell.Tab.0.right" timestamp="1617874391887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="230" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617273329817" />
+    <state width="1259" height="230" key="GridCell.Tab.0.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1617874391887" />
     <state width="1259" height="203" key="GridCell.Tab.1.bottom" timestamp="1616754865784">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -334,14 +422,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="203" key="GridCell.Tab.1.right/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1616754865784" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1616754505603">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1619174031080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1616754505603" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1616754508778">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1619174031080" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1619174372804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1616754508778" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1061.-1080.1920.1040@0.0.1280.680" timestamp="1619174372804" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
